@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>My Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+    }
+    img {
+      border-radius: 50%;
+      width: 150px;
+      margin-top: 20px;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 70%;
+    }
+    table, th, td {
+      border: 1px solid #999;
+      padding: 10px;
+    }
+    th {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ประวัติส่วนตัว (Resume)</h1>
+  </header>
+
+  <section>
+    <img src="resume 6604022610216" alt="My Photo">
+    <h2>ชื่อ-นามสกุล: สมชาย ใจดี</h2>
+    <p>Email: somchai@example.com</p>
+    <p>เบอร์โทร: 081-234-5678</p>
+  </section>
+
+  <section>
+    <h2>ประวัติการศึกษา</h2>
+    <table>
+      <tr>
+        <th>ปีการศึกษา</th>
+        <th>สถานศึกษา</th>
+        <th>วุฒิ</th>
+      </tr>
+      <tr>
+        <td>2562 - ปัจจุบัน</td>
+        <td>มหาวิทยาลัยตัวอย่าง</td>
+        <td>ปริญญาตรี</td>
+      </tr>
+      <tr>
+        <td>2559 - 2561</td>
+        <td>โรงเรียนตัวอย่าง</td>
+        <td>มัธยมปลาย</td>
+      </tr>
+    </table>
+  </section>
+</body>
+</html>
